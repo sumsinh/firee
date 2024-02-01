@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color:#fff;  
+}
+body{
+    overflow: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    font-family: DRAGON HUNTER;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #E8D8C4;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    background-color: #561C24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all ease-out 0.9s;
+}
+.box h1{
+    font-weight: 100;
+    margin-bottom: 30px;
+    font-size: 70px;
+    /* text-shadow: 20px 20px 100px black; */
+}
+.box button{
+    padding: 15px 25px;
+    font-size: 40px;
+    background-color: transparent;
+    border: 2px solid #E8D8C4;
+    border-radius: 10px;
+    color: #E8D8C4;
+    transition: all ease 0.1s;
+    cursor: pointer;
+    /* box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.502), inset -20px -20px 60px #561C24; */
+}
+
+.box button:active{
+    scale: 0.9;
+}
+
+.box button:hover{
+    background-color: #E8D8C4;
+    color: #561C24;
+}
+.box h2{
+    font-size: 50px;
+}
+
+.card-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.card1{
+    height:200px ;
+    width: 200px;
+    border: 2px solid #E8D8C4;
+    border-radius: 10px;
+    text-align: center;
+    cursor: grab;
+    transition: all ease 0.1s;
+}
+.card1 img{
+    height: 100%;
+    padding-bottom: 80px;
+}
+.card1 h1{
+    font-size: 15px;
+    top: 4%;
+    position: relative; 
+}
+.card1:hover{
+    background-color: #E8D8C4;
+    color: #561C24;
+}
+
+.card1:active{
+    scale: 0.9;
+}
+
+.time-score{
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    border-bottom: 5px solid #E8D8C4;
+}
+.time-score h4{
+    font-size: 40px; 
+}
+.time-score h5{
+    font-size: 40px;
+}
+.playground{
+    height: 100%;
+    width: 100%;
+}
+.playground img{
+    height: 100px;
+   position: absolute;
+}
